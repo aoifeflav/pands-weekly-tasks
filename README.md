@@ -54,8 +54,126 @@ The sum of these amounts is: €1.74
 #### Sources:
 n/a
 
+### ***Accounts***
+    Write a python program called accounts.py that reads in a 10 character account number and outputs the account number         with only the last 4 digits showing (and the first 6 digits replaced with Xs).
+    Modify the program to deal with account numbers of any length.
 
+### Description:
+xxxFILL IN DESCRIPTIONxxx
 
+<details>
+           <summary>User point of view</summary>
+           <p>
 
+User call of the program is :
 
- 
+```
+λ python accounts.py
+```
+User input :
+```
+Please enter an 10 digit account number: 1234567890
+```
+and the output is :
+
+```
+XXXXXX7890
+```
+</p>
+</details>
+
+#### Sources:
+FILL IN SOURCES
+
+### ***Collatz*** 
+    Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values         of the following calculation.
+    At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is         odd, multiply it by three and add one.
+    Have the program end if the current value is one.
+
+### Description:
+xxxFILL IN DESCRIPTIONxxx
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+λ python collatz.py
+```
+User input :
+```
+Please enter a positive integer: 10
+```
+and the output is :
+
+```
+10 5 16 8 4 2 1
+```
+</p>
+</details>
+
+#### Sources:
+FILL IN SOURCES
+
+### ***Weekday*** 
+    Write a program that outputs whether or not today is a weekday.
+
+### Description:
+xxxFILL IN DESCRIPTIONxxx
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+λ python weekday.py
+```
+If ran on a weekday the output is:
+```
+Yes, unfortunately today is a weekday.
+```
+If ran on the weekend the output is:
+
+```
+It is the weekend, yay!
+```
+</p>
+</details>
+
+#### Sources:
+FILL IN SOURCES
+
+### ***Square Root***
+    Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+    Create your own sqrt function, do not use the built in functions x ** .5 or math.sqrt(x).
+
+### Description:
+xxxFILL IN DESCRIPTIONxxx
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+λ python collatz.py
+```
+User input :
+```
+Please enter a positive integer: 10
+```
+and the output is :
+
+```
+10 5 16 8 4 2 1
+```
+</p>
+</details>
+
+#### Sources:
+FILL IN SOURCES
