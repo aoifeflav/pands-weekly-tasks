@@ -177,3 +177,43 @@ and the output is :
 
 #### Sources:
 FILL IN SOURCES
+
+
+### ***Count E's***
+    Write a program that reads in a text file and outputs the number of e's it contains.
+    The program should take the filename from an argument on the command line.
+
+### Description:
+This program reads a text file (in this case I had it read Moby Dick), and counts the number of times the letter 'e' occurs.
+This was done by first creating a function that opens a file, reads it and records the number of times a particular letter occurs.
+If the file does not exist a File not found error occurs.
+The main part of the program takes the file, that has been passed as an argument and assigns it to a variable. 
+The function that was created earlier is called with the variable assigned to the letter e, which has the program count all the e's in the text file.
+Finally, the result is printed out.
+
+
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+λ python count_es.py mobydick.txt
+```
+
+and the output is :
+
+```
+The letter e occurs 58820 times in mobydick.txt
+```
+</p>
+</details>
+
+#### Sources:
+https://www.sanfoundry.com/python-program-read-contents-file/
+https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3
+https://www.w3schools.com/python/python_try_except.asp
+https://gist.github.com/StevenClontz/4445774
+https://docs.python.org/3/library/exceptions.html

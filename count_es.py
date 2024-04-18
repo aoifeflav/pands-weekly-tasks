@@ -9,11 +9,15 @@
 #import the sys module
 import sys
 
+
 #create a function that takes the file name and letter as parameters
 def count_es(filename, letter):
-    with open(filename, 'r') as file: #open file in read mode
-        text = file.read() #reads the file and stores it in the variable text
-        return text.count(letter) #returns no. of times the letter occurs
+    try:
+        with open(filename, 'r') as file: #open file in read mode
+            text = file.read() #reads the file and stores it in the variable text
+            return text.count(letter) #returns no. of times the letter occurs
+    except FileNotFoundError:
+        print("File not found")    
 
 filename = sys.argv[1] #assigns the filename to the variable
 letter_to_count = "e" #could change this to count any letter
