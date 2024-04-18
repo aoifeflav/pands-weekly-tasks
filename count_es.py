@@ -18,8 +18,10 @@ def count_es(filename, letter):
             return text.count(letter) #returns no. of times the letter occurs
     except FileNotFoundError:
         print("File not found")    
+        
 
 filename = sys.argv[1] #assigns the filename to the variable
 letter_to_count = "e" #could change this to count any letter
 count = count_es(filename, letter_to_count) #calls function from above, to count Es
-print(f"The letter {letter_to_count} occurs {count} times in {filename}") #print
+if count is not None:
+    print(f"The letter {letter_to_count} occurs {count} times in {filename}") #print
