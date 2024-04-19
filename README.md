@@ -27,7 +27,7 @@ I have previously completed very basic python training so some tasks did not req
     c. Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
 ### Description:
-The bank.py program is a simple utility that allows users to add two monetary amounts and display the result in a human-readable format.
+The bank.py program is a simple utility that allows users to add two monetary amounts and display the result in a human-readable format. When called it asks the user to input an amount in cent, then asks for another amount in cent. The program adds these cent amounts together, then uses the // function to fnd the Euro amount and the % function to find the remaining sent amount. The result is then formatted and printed
 
 <details>
            <summary>User point of view</summary>
@@ -59,7 +59,9 @@ n/a
     Modify the program to deal with account numbers of any length.
 
 ### Description:
-xxxFILL IN DESCRIPTIONxxx
+This program begins by asking the user to input a 10 digit number, as a string. The program then takes this input and turns it from a string to a list. It then slices the first 6 items in the list using indexing and replaces the characters with X's. Finally the join() method is used to turn the list back into a string, with no spaces between the letters.
+
+For this program to read in an account number of any length, and stll replace all numbers except the last four, the process is mostly the same. The difference lies in the indexing used when slicing the list. For a list of any size the program is told to replace all numbers with X's ***except*** the last four.
 
 <details>
            <summary>User point of view</summary>
@@ -83,7 +85,8 @@ XXXXXX7890
 </details>
 
 #### Sources:
-FILL IN SOURCES
+https://www.geeksforgeeks.org/python-program-convert-string-list/
+https://www.geeksforgeeks.org/how-to-replace-values-in-a-list-in-python/
 
 ### ***Collatz*** 
     Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values         of the following calculation.
