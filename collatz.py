@@ -2,6 +2,8 @@
 # Takes any positive integer and outputs the successive values 
 # Author: Aoife Flavin
 
+#will need an if statement and a loop
+
 #Have the user enter a number
 number = int(input("Input any positive integer:"))
 

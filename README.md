@@ -81,6 +81,16 @@ and the output is :
 ```
 XXXXXX7890
 ```
+User input :
+```
+Please enter an account number of any length:997843984584593893
+```
+and the output is :
+
+```
+XXXXXXXXXXXXXX3893
+```
+
 </p>
 </details>
 
@@ -89,12 +99,14 @@ https://www.geeksforgeeks.org/python-program-convert-string-list/
 https://www.geeksforgeeks.org/how-to-replace-values-in-a-list-in-python/
 
 ### ***Collatz*** 
-    Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values         of the following calculation.
-    At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is         odd, multiply it by three and add one.
+    Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
+    At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
     Have the program end if the current value is one.
 
 ### Description:
-xxxFILL IN DESCRIPTIONxxx
+This program prompts the user to input a positive integer. If the user enters a negative integer, the program requests a positive value until a valid input is provided. Once a positive integer is entered, the program enters a while loop. Within the loop, the program continuously outputs the current number with a space next to it while performing calculations.
+
+Using an if statement, the program checks whether the current number, when divided by two, results in no remainder. If so, the number is divided by two. If there is a remainder, indicating an odd number, the number is multiplied by three and one is added. This process continues until the number becomes one, at which point the loop exits.
 
 <details>
            <summary>User point of view</summary>
@@ -118,7 +130,7 @@ and the output is :
 </details>
 
 #### Sources:
-FILL IN SOURCES
+https://www.geeksforgeeks.org/loops-in-python/
 
 ### ***Weekday*** 
     Write a program that outputs whether or not today is a weekday.
