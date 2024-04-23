@@ -232,3 +232,34 @@ https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-py
 https://www.w3schools.com/python/python_try_except.asp
 https://gist.github.com/StevenClontz/4445774
 https://docs.python.org/3/library/exceptions.html
+
+### ***Square Root***
+    Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+    Create your own sqrt function, do not use the built in functions x ** .5 or math.sqrt(x).
+
+### Description:
+xxxFILL IN DESCRIPTIONxxx
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+λ python collatz.py
+```
+User input :
+```
+Please enter a positive integer: 10
+```
+and the output is :
+
+```
+10 5 16 8 4 2 1
+```
+</p>
+</details>
+
+#### Sources:
+https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/

@@ -11,7 +11,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#set up the functiom
+#set variables
+mean = 5
+std_dev = 2
+
+#generate numbers
+hist_data = np.random.normal(loc=mean, scale=std_dev, size=1000)
+
+plt.hist(hist_data) 
+
+
+#set up the function
 xpoints = np.array(range(0,10))
 ypoints = (xpoints * xpoints) * xpoints
 
