@@ -233,9 +233,10 @@ https://www.w3schools.com/python/python_try_except.asp
 https://gist.github.com/StevenClontz/4445774
 https://docs.python.org/3/library/exceptions.html
 
-### ***Square Root***
-    Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
-    Create your own sqrt function, do not use the built in functions x ** .5 or math.sqrt(x).
+### ***Plot Task***
+    Write a program called plottask.py that displays:
+    a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+    and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
 
 ### Description:
 xxxFILL IN DESCRIPTIONxxx
@@ -256,10 +257,13 @@ Please enter a positive integer: 10
 and the output is :
 
 ```
-10 5 16 8 4 2 1
+![Plot Image](plot_task_image.jpg)
 ```
 </p>
 </details>
 
 #### Sources:
-https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/
+- https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/
+- https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+- https://python-charts.com/matplotlib/background-color/?utm_content=cmp-true
+- https://www.scaler.com/topics/matplotlib/matplotlib-set-axis-range/
