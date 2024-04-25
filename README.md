@@ -256,9 +256,8 @@ Please enter a positive integer: 10
 ```
 and the output is :
 
-```
 ![Plot Image](plot_task_image.jpg)
-```
+
 </p>
 </details>
 
