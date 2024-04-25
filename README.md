@@ -2,22 +2,26 @@
 
 This is the repository of Aoife Flavin. The purpose of this repoitory is to complete the weekly problem sets given in the module Programming and Scripting, in Semester 1 of the Higher Diploma in Data Analytics at ATU.
 
-In each section I will detail my approach to solving the assigned tasks, cite the sources I used while problem-solving, and provide an overview of the technologies used in both code creation and testing.
+In each section I will detail my approach to solving the assigned tasks and cite the sources I used while problem-solving.
 
 I have previously completed very basic python training so some tasks did not require extensive research.
 
 
 ## Table of Contents
-* bank.py
-* accounts.py
-* collatz.py
-* weekday.py
-* squareroot.py
-* Task 7
-* task 8
+* Hello World
+* Bank
+* Accounts
+* Collatz
+* Weekday
+* Square Root
+* Count E's
+* Plot Task
 (make these links once this is filled out more)
 
 ---
+### ***Hello World***
+### Description:
+The veru first program simply prints out the words "Hello World"
 
 ### ***Bank***
     Write a program called bank.py 
@@ -136,7 +140,9 @@ https://www.geeksforgeeks.org/loops-in-python/
     Write a program that outputs whether or not today is a weekday.
 
 ### Description:
-xxxFILL IN DESCRIPTIONxxx
+To complete this task the datetime module must be imported. A function called 'is_weekday()' is then defined that assigns the variable today to the current day of the week. The function then checks if today is equal to any day between monday and friday using an if statement and indexing.
+
+When the function is called, an if statement is used to say 'Yes' if it is a weekday, or 'No' if it is the weekend.
 
 <details>
            <summary>User point of view</summary>
@@ -160,7 +166,10 @@ It is the weekend, yay!
 </details>
 
 #### Sources:
-FILL IN SOURCES
+https://www.geeksforgeeks.org/get-current-date-and-time-using-python/
+https://www.w3schools.com/python/python_functions.asp
+https://chat.openai.com/
+
 
 ### ***Square Root***
     Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
