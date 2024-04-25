@@ -239,7 +239,11 @@ https://docs.python.org/3/library/exceptions.html
     and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
 
 ### Description:
-xxxFILL IN DESCRIPTIONxxx
+To create this graph, I first had to import the numpy and matplotlib modules. To plot part 1 of the question numpy was used to create an array of numbers using the numpy.random.normal module, passing through the mean of 5, standard deviation of 2 and size of 1000 as arguments. Then, the plt.hist function of matplotlib was used to create a histogram, with the colour and intervals changed to improve clarity.
+
+To plot the the function $y = x^3$ from part 2 of the question the X points were set to the array 0-10, and the Y points to $Xpoints^3$. The plt.plot function of matplotlib was then used to plot this function.
+
+Having plotted both functions some changes were made to the design of the graph, first adjusting the Y limit to have a clearer view of the histogram. And adding a title, adjusting colours and fonts, adding a legend and removing the top and right spines for clarity and design purposes.
 
 <details>
            <summary>User point of view</summary>
@@ -248,11 +252,7 @@ xxxFILL IN DESCRIPTIONxxx
 User call of the program is :
 
 ```
-λ python collatz.py
-```
-User input :
-```
-Please enter a positive integer: 10
+λ python plot_task.py
 ```
 and the output is :
 
