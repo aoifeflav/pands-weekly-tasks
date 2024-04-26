@@ -6,9 +6,9 @@ In each section I will detail my approach to solving the assigned tasks and cite
 
 I have previously completed very basic python training so some tasks did not require extensive research.
 
-
+- [Introduction](#introduction)
 ## Table of Contents
-* Hello World
+* [Hello World](#helloworld)
 * Bank
 * Accounts
 * Collatz
@@ -19,6 +19,7 @@ I have previously completed very basic python training so some tasks did not req
 (make these links once this is filled out more)
 
 ---
+<a id="helloworld"></a>
 ## ***Hello World***
 ### Description:
 The veru first program simply prints out the words "Hello World"
