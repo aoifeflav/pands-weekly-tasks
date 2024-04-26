@@ -6,24 +6,23 @@ In each section I will detail my approach to solving the assigned tasks and cite
 
 I have previously completed very basic python training so some tasks did not require extensive research.
 
-- [Introduction](#introduction)
 ## Table of Contents
 * [Hello World](#helloworld)
-* Bank
-* Accounts
-* Collatz
-* Weekday
-* Square Root
-* Count E's
-* Plot Task
-(make these links once this is filled out more)
+* [Bank](#bank)
+* [Accounts](#accounts)
+* [Collatz](#collatz)
+* [Weekday](#weekday)
+* [Square Root](#squareroot)
+* [Count E's](#countes)
+* [Plot Task](#plottask)
 
 ---
 <a id="helloworld"></a>
 ## ***Hello World***
 ### Description:
-The veru first program simply prints out the words "Hello World"
+The very first program simply prints out the words "Hello World"
 
+<a id="bank"></a>
 ## ***Bank***
     Write a program called bank.py 
     The program should:
@@ -59,6 +58,7 @@ The sum of these amounts is: €1.74
 #### Sources:
 n/a
 
+<a id="accounts"></a>
 ## ***Accounts***
     Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
     Modify the program to deal with account numbers of any length.
@@ -103,6 +103,7 @@ XXXXXXXXXXXXXX3893
 https://www.geeksforgeeks.org/python-program-convert-string-list/
 https://www.geeksforgeeks.org/how-to-replace-values-in-a-list-in-python/
 
+<a id="collatz"></a>
 ## ***Collatz*** 
     Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
     At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
@@ -137,6 +138,7 @@ and the output is :
 #### Sources:
 https://www.geeksforgeeks.org/loops-in-python/
 
+<a id="weekday"></a>
 ## ***Weekday*** 
     Write a program that outputs whether or not today is a weekday.
 
@@ -171,7 +173,7 @@ https://www.geeksforgeeks.org/get-current-date-and-time-using-python/
 https://www.w3schools.com/python/python_functions.asp
 https://chat.openai.com/
 
-
+<a id="squareroot"></a>
 ## ***Square Root***
     Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
     Create your own sqrt function, do not use the built in functions x ** .5 or math.sqrt(x).
@@ -212,6 +214,7 @@ https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/chapter19.04-Ne
 https://chat.openai.com/
 https://www.datacamp.com/tutorial/exception-handling-python
 
+<a id="countes"></a>
 ## ***Count E's***
     Write a program that reads in a text file and outputs the number of e's it contains.
     The program should take the filename from an argument on the command line.
@@ -251,6 +254,7 @@ https://www.w3schools.com/python/python_try_except.asp
 https://gist.github.com/StevenClontz/4445774
 https://docs.python.org/3/library/exceptions.html
 
+<a id="plottask"></a>
 ## ***Plot Task***
     Write a program called plottask.py that displays:
     a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
