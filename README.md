@@ -19,11 +19,11 @@ I have previously completed very basic python training so some tasks did not req
 (make these links once this is filled out more)
 
 ---
-### ***Hello World***
+## ***Hello World***
 ### Description:
 The veru first program simply prints out the words "Hello World"
 
-### ***Bank***
+## ***Bank***
     Write a program called bank.py 
     The program should:
     a. Prompt the user and read in two money amounts (in cent)
@@ -58,7 +58,7 @@ The sum of these amounts is: €1.74
 #### Sources:
 n/a
 
-### ***Accounts***
+## ***Accounts***
     Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
     Modify the program to deal with account numbers of any length.
 
@@ -102,7 +102,7 @@ XXXXXXXXXXXXXX3893
 https://www.geeksforgeeks.org/python-program-convert-string-list/
 https://www.geeksforgeeks.org/how-to-replace-values-in-a-list-in-python/
 
-### ***Collatz*** 
+## ***Collatz*** 
     Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
     At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
     Have the program end if the current value is one.
@@ -136,7 +136,7 @@ and the output is :
 #### Sources:
 https://www.geeksforgeeks.org/loops-in-python/
 
-### ***Weekday*** 
+## ***Weekday*** 
     Write a program that outputs whether or not today is a weekday.
 
 ### Description:
@@ -171,12 +171,17 @@ https://www.w3schools.com/python/python_functions.asp
 https://chat.openai.com/
 
 
-### ***Square Root***
+## ***Square Root***
     Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
     Create your own sqrt function, do not use the built in functions x ** .5 or math.sqrt(x).
 
 ### Description:
-xxxFILL IN DESCRIPTIONxxx
+The function sqrt() is first defined. Within this function if an integer <0 is input the number is divided by two to give an initial estimate. The desired accuracy of the estimate is set to 1e-10 in the variable 'difference'.
+
+Next, a while loop is started that will continue until the conditions are met to break out of the loop. Inside the loop a new estimate of the square root is calculated using the Newton-Raphson method. Then the difference between that estimate and the previous estimate is compared against the difference variable. If the difference is less than the difference variable, the loop exits. Once the loop exits the final estimate is returned.
+
+In the testing section the user is prompted to input a positive number. If the number inputed is less than zero, an error message will appear. If 0 is inputed, 0 will be returned as the square root of zero is zero. If a positive integer is input the sqrt() function will be called, the square root calculated and the result printed out.
+
 
 <details>
            <summary>User point of view</summary>
@@ -185,25 +190,28 @@ xxxFILL IN DESCRIPTIONxxx
 User call of the program is :
 
 ```
-λ python collatz.py
+λ python squareroot.py
 ```
 User input :
 ```
-Please enter a positive integer: 10
+Please enter a positive number: 568
 ```
 and the output is :
 
 ```
-10 5 16 8 4 2 1
+The square root of 568.0 is approx 23.832750575625973
 ```
 </p>
 </details>
 
 #### Sources:
-FILL IN SOURCES
+https://www.youtube.com/watch?v=-5e2cULI3H8
+https://stackoverflow.com/questions/40390129/what-does-e-in-1e-5-in-python-language-mean-and-what-is-the-name-of-this-not
+https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html
+https://chat.openai.com/
+https://www.datacamp.com/tutorial/exception-handling-python
 
-
-### ***Count E's***
+## ***Count E's***
     Write a program that reads in a text file and outputs the number of e's it contains.
     The program should take the filename from an argument on the command line.
 
@@ -242,7 +250,7 @@ https://www.w3schools.com/python/python_try_except.asp
 https://gist.github.com/StevenClontz/4445774
 https://docs.python.org/3/library/exceptions.html
 
-### ***Plot Task***
+## ***Plot Task***
     Write a program called plottask.py that displays:
     a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
     and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
