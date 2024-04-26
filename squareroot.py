@@ -32,7 +32,7 @@ number_input = float(input("Please enter a positive number:"))
 
 
 if number_input <= 0:
-    print("Input must be a poitive number.") #error
+    print("Input must be a positive number.") #error
 else:
     result = sqrt(number_input) 
     print(f"The square root of {number_input} is approx {result}")
