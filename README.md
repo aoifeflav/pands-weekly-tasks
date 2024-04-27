@@ -31,7 +31,7 @@ The very first program simply prints out the words "Hello World"
     c. Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
 ### Description:
-The bank.py program is a simple utility that allows users to add two monetary amounts and display the result in a human-readable format. When called it asks the user to input an amount in cent, then asks for another amount in cent. The program adds these cent amounts together, then uses the // function to fnd the Euro amount and the % function to find the remaining sent amount. The result is then formatted and printed
+The bank.py program is a simple utility that allows users to add two monetary amounts and display the result in a human-readable format. When called it asks the user to input an amount in cent, then asks for another amount in cent. The program adds these cent amounts together, then uses the // function to find the Euro amount and the % function to find the remaining cent amount. The result is then formatted and printed.
 
 <details>
            <summary>User point of view</summary>
@@ -66,7 +66,7 @@ n/a
 ### Description:
 This program begins by asking the user to input a 10 digit number, as a string. The program then takes this input and turns it from a string to a list. It then slices the first 6 items in the list using indexing and replaces the characters with X's. Finally the join() method is used to turn the list back into a string, with no spaces between the letters.
 
-For this program to read in an account number of any length, and stll replace all numbers except the last four, the process is mostly the same. The difference lies in the indexing used when slicing the list. For a list of any size the program is told to replace all numbers with X's ***except*** the last four.
+For this program to read in an account number of any length, and still replace all numbers except the last four, the process is mostly the same. The difference lies in the indexing used when slicing the list. For a list of any size the program is told to replace all numbers with X's ***except*** the last four.
 
 <details>
            <summary>User point of view</summary>
@@ -79,7 +79,7 @@ User call of the program is :
 ```
 User input :
 ```
-Please enter an 10 digit account number: 1234567890
+Please enter a 10 digit account number: 1234567890
 ```
 and the output is :
 
@@ -100,8 +100,8 @@ XXXXXXXXXXXXXX3893
 </details>
 
 #### Sources:
-https://www.geeksforgeeks.org/python-program-convert-string-list/
-https://www.geeksforgeeks.org/how-to-replace-values-in-a-list-in-python/
+* https://www.geeksforgeeks.org/python-program-convert-string-list/
+* https://www.geeksforgeeks.org/how-to-replace-values-in-a-list-in-python/
 
 <a id="collatz"></a>
 ## ***Collatz*** 
@@ -136,7 +136,7 @@ and the output is :
 </details>
 
 #### Sources:
-https://www.geeksforgeeks.org/loops-in-python/
+* https://www.geeksforgeeks.org/loops-in-python/
 
 <a id="weekday"></a>
 ## ***Weekday*** 
@@ -169,9 +169,9 @@ It is the weekend, yay!
 </details>
 
 #### Sources:
-https://www.geeksforgeeks.org/get-current-date-and-time-using-python/
-https://www.w3schools.com/python/python_functions.asp
-https://chat.openai.com/
+* https://www.geeksforgeeks.org/get-current-date-and-time-using-python/
+* https://www.w3schools.com/python/python_functions.asp
+* https://chat.openai.com/
 
 <a id="squareroot"></a>
 ## ***Square Root***
@@ -208,11 +208,11 @@ The square root of 568.0 is approx 23.832750575625973
 </details>
 
 #### Sources:
-https://www.youtube.com/watch?v=-5e2cULI3H8
-https://stackoverflow.com/questions/40390129/what-does-e-in-1e-5-in-python-language-mean-and-what-is-the-name-of-this-not
-https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html
-https://chat.openai.com/
-https://www.datacamp.com/tutorial/exception-handling-python
+* https://www.youtube.com/watch?v=-5e2cULI3H8
+* https://stackoverflow.com/questions/40390129/what-does-e-in-1e-5-in-python-language-mean-and-what-is-the-name-of-this-not
+* https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html
+* https://chat.openai.com/
+* https://www.datacamp.com/tutorial/exception-handling-python
 
 <a id="countes"></a>
 ## ***Count E's***
@@ -248,11 +248,11 @@ The letter e occurs 58820 times in mobydick.txt
 </details>
 
 #### Sources:
-https://www.sanfoundry.com/python-program-read-contents-file/
-https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3
-https://www.w3schools.com/python/python_try_except.asp
-https://gist.github.com/StevenClontz/4445774
-https://docs.python.org/3/library/exceptions.html
+* https://www.sanfoundry.com/python-program-read-contents-file/
+* https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3
+* https://www.w3schools.com/python/python_try_except.asp
+* https://gist.github.com/StevenClontz/4445774
+* https://docs.python.org/3/library/exceptions.html
 
 <a id="plottask"></a>
 ## ***Plot Task***
@@ -284,7 +284,7 @@ and the output is :
 </details>
 
 #### Sources:
-- https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/
-- https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
-- https://python-charts.com/matplotlib/background-color/?utm_content=cmp-true
-- https://www.scaler.com/topics/matplotlib/matplotlib-set-axis-range/
+* https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/
+* https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+* https://python-charts.com/matplotlib/background-color/?utm_content=cmp-true
+* https://www.scaler.com/topics/matplotlib/matplotlib-set-axis-range/
